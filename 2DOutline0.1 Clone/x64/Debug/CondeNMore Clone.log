@@ -1,0 +1,113 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(519,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (CondeNMore Clone.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Animation.cpp
+  Assets.cpp
+  ClickListener.cpp
+  Creature.cpp
+C:\Users\acob1\Documents\Programming\C++\tutorials\CodeNMore Tutorials\CondeNMore Clone\2DOutline0.1 Clone\Creature.cpp(47,53): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\acob1\Documents\Programming\C++\tutorials\CodeNMore Tutorials\CondeNMore Clone\2DOutline0.1 Clone\Creature.cpp(56,49): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\acob1\Documents\Programming\C++\tutorials\CodeNMore Tutorials\CondeNMore Clone\2DOutline0.1 Clone\Creature.cpp(69,51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\acob1\Documents\Programming\C++\tutorials\CodeNMore Tutorials\CondeNMore Clone\2DOutline0.1 Clone\Creature.cpp(78,55): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  DirtTile.cpp
+  Display.cpp
+  Entity.cpp
+  EntityManager.cpp
+  FontLoader.cpp
+  Game.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility(138,73): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\memory(2186): message : see reference to function template instantiation 'void std::_Construct_in_place<_Ty,std::shared_ptr<Handler>&,int,int>(_Ty &,std::shared_ptr<Handler> &,int &&,int &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=GameCamera
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\memory(2906): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<std::shared_ptr<Handler>&,int,int>(std::shared_ptr<Handler> &,int &&,int &&)' being compiled
+          with
+          [
+              _Ty=GameCamera
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\memory(2907): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<std::shared_ptr<Handler>&,int,int>(std::shared_ptr<Handler> &,int &&,int &&)' being compiled
+          with
+          [
+              _Ty=GameCamera
+          ]
+C:\Users\acob1\Documents\Programming\C++\tutorials\CodeNMore Tutorials\CondeNMore Clone\2DOutline0.1 Clone\Game.cpp(42): message : see reference to function template instantiation 'std::shared_ptr<GameCamera> std::make_shared<GameCamera,std::shared_ptr<Handler>&,int,int>(std::shared_ptr<Handler> &,int &&,int &&)' being compiled
+  GameCamera.cpp
+C:\Users\acob1\Documents\Programming\C++\tutorials\CodeNMore Tutorials\CondeNMore Clone\2DOutline0.1 Clone\GameCamera.cpp(18,64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\acob1\Documents\Programming\C++\tutorials\CodeNMore Tutorials\CondeNMore Clone\2DOutline0.1 Clone\GameCamera.cpp(25,66): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  GameState.cpp
+  GrassTile.cpp
+  GreenTile.cpp
+  Handler.cpp
+  ImageLoader.cpp
+  KeyManager.cpp
+  main.cpp
+  MenuState.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility(138,73): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\memory(2186): message : see reference to function template instantiation 'void std::_Construct_in_place<_Ty,int,int,int,int,std::vector<std::shared_ptr<SubTexture>,std::allocator<std::shared_ptr<SubTexture>>>&,std::shared_ptr<ClickListener>>(_Ty &,int &&,int &&,int &&,int &&,std::vector<std::shared_ptr<SubTexture>,std::allocator<std::shared_ptr<SubTexture>>> &,std::shared_ptr<ClickListener> &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=UIImageButton
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\memory(2906): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<int,int,int,int,std::vector<std::shared_ptr<SubTexture>,std::allocator<std::shared_ptr<SubTexture>>>&,std::shared_ptr<ClickListener>>(int &&,int &&,int &&,int &&,std::vector<std::shared_ptr<SubTexture>,std::allocator<std::shared_ptr<SubTexture>>> &,std::shared_ptr<ClickListener> &&)' being compiled
+          with
+          [
+              _Ty=UIImageButton
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\memory(2907): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<int,int,int,int,std::vector<std::shared_ptr<SubTexture>,std::allocator<std::shared_ptr<SubTexture>>>&,std::shared_ptr<ClickListener>>(int &&,int &&,int &&,int &&,std::vector<std::shared_ptr<SubTexture>,std::allocator<std::shared_ptr<SubTexture>>> &,std::shared_ptr<ClickListener> &&)' being compiled
+          with
+          [
+              _Ty=UIImageButton
+          ]
+C:\Users\acob1\Documents\Programming\C++\tutorials\CodeNMore Tutorials\CondeNMore Clone\2DOutline0.1 Clone\MenuState.cpp(28): message : see reference to function template instantiation 'std::shared_ptr<UIImageButton> std::make_shared<UIImageButton,int,int,int,int,std::vector<std::shared_ptr<SubTexture>,std::allocator<std::shared_ptr<SubTexture>>>&,std::shared_ptr<ClickListener>>(int &&,int &&,int &&,int &&,std::vector<std::shared_ptr<SubTexture>,std::allocator<std::shared_ptr<SubTexture>>> &,std::shared_ptr<ClickListener> &&)' being compiled
+  MouseManager.cpp
+  Generating Code...
+  Compiling...
+  Player.cpp
+C:\Users\acob1\Documents\Programming\C++\tutorials\CodeNMore Tutorials\CondeNMore Clone\2DOutline0.1 Clone\Player.cpp(123,12): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\acob1\Documents\Programming\C++\tutorials\CodeNMore Tutorials\CondeNMore Clone\2DOutline0.1 Clone\Player.cpp(128,12): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Rock.cpp
+  SpriteSheet.cpp
+  State.cpp
+  StateManager.cpp
+  StaticEntity.cpp
+  SubTexture.cpp
+  TallGrassTile.cpp
+  Text.cpp
+  Tile.cpp
+  Tree.cpp
+  TreeTile.cpp
+  UIImageButton.cpp
+  UIManager.cpp
+  UIObject.cpp
+  Utils.cpp
+  World.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility(138,73): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\memory(2186): message : see reference to function template instantiation 'void std::_Construct_in_place<_Ty,const std::shared_ptr<Handler>&,int,int>(_Ty &,const std::shared_ptr<Handler> &,int &&,int &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=Tree
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\memory(2906): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<const std::shared_ptr<Handler>&,int,int>(const std::shared_ptr<Handler> &,int &&,int &&)' being compiled
+          with
+          [
+              _Ty=Tree
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\memory(2907): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<const std::shared_ptr<Handler>&,int,int>(const std::shared_ptr<Handler> &,int &&,int &&)' being compiled
+          with
+          [
+              _Ty=Tree
+          ]
+C:\Users\acob1\Documents\Programming\C++\tutorials\CodeNMore Tutorials\CondeNMore Clone\2DOutline0.1 Clone\World.cpp(20): message : see reference to function template instantiation 'std::shared_ptr<Tree> std::make_shared<Tree,const std::shared_ptr<Handler>&,int,int>(const std::shared_ptr<Handler> &,int &&,int &&)' being compiled
+  Generating Code...
+  CondeNMore Clone.vcxproj -> C:\Users\acob1\Documents\Programming\C++\tutorials\CodeNMore Tutorials\CondeNMore Clone\x64\Debug\2DOutline0.1 Clone.exe

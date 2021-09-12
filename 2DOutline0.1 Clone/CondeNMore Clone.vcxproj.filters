@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{5d302bdf-7825-4abd-8530-ef17a243b290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\display">
+      <UniqueIdentifier>{eefca40c-7142-4cff-8085-d2fc33b6db22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gfx">
+      <UniqueIdentifier>{c854b627-0cde-4ceb-8173-21896de9e8fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\textures">
+      <UniqueIdentifier>{c7ede833-9ebf-4776-a722-c75f36fd13b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\states">
+      <UniqueIdentifier>{8b2329c7-a28d-44a4-b2d8-5f59e7bd86ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\entities">
+      <UniqueIdentifier>{6859ef36-9e70-459f-b212-6ac1d90d4bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\entities\creatures">
+      <UniqueIdentifier>{e046ffad-b9e3-4e29-b05e-b7af8ee50fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\input">
+      <UniqueIdentifier>{bb9e8a43-a03d-4ea8-80e3-2c7959a255e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tiles">
+      <UniqueIdentifier>{869c5e31-50bf-41cc-9d0e-a8965b338b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\worlds">
+      <UniqueIdentifier>{27838cb9-746f-43e8-be14-b90b8852bb24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{213f5bd8-37cb-4e4f-bead-62a5a94e85e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\worlds">
+      <UniqueIdentifier>{37cc67ae-21ff-4f77-bdfb-cdc3f00fb8e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\entities\static entities">
+      <UniqueIdentifier>{79821955-1087-4baa-9fc2-e19cdff514ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui">
+      <UniqueIdentifier>{a433a315-f129-4d57-8226-f2b75481abeb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImageLoader.cpp">
+      <Filter>src\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>src\display</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheet.cpp">
+      <Filter>src\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets.cpp">
+      <Filter>src\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="SubTexture.cpp">
+      <Filter>src\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>src\states</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>src\states</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>src\states</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>src\states</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>src\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature.cpp">
+      <Filter>src\entities\creatures</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>src\entities\creatures</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>src\tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GrassTile.cpp">
+      <Filter>src\tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="DirtTile.cpp">
+      <Filter>src\tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>src\worlds</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCamera.cpp">
+      <Filter>src\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="Handler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>src\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticEntity.cpp">
+      <Filter>src\entities\static entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>src\entities\static entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>src\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseManager.cpp">
+      <Filter>src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="ClickListener.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="UIObject.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="UIImageButton.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="FontLoader.cpp">
+      <Filter>src\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>src\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTile.cpp">
+      <Filter>src\tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="TallGrassTile.cpp">
+      <Filter>src\tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeTile.cpp">
+      <Filter>src\tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>src\entities\static entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImageLoader.h">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>src\display</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets.h">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="SubTexture.h">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>src\states</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>src\states</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>src\states</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>src\states</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>src\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature.h">
+      <Filter>src\entities\creatures</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>src\entities\creatures</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>src\tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassTile.h">
+      <Filter>src\tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="DirtTile.h">
+      <Filter>src\tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>src\worlds</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCamera.h">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticEntity.h">
+      <Filter>src\entities\static entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>src\entities\static entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>src\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseManager.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="UIObject.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ClickListener.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="UIImageButton.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="FontLoader.h">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTile.h">
+      <Filter>src\tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="TallGrassTile.h">
+      <Filter>src\tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeTile.h">
+      <Filter>src\tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>src\entities\static entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\textures\zardo1.png">
+      <Filter>res\textures</Filter>
+    </Image>
+    <Image Include="res\textures\LinkFrontSleepCompactNoBackground_squared.png">
+      <Filter>res\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\worlds\world1.txt">
+      <Filter>res\worlds</Filter>
+    </Text>
+    <Text Include="res\worlds\world2.txt">
+      <Filter>res\worlds</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
